@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BETableViewController.h"
 
-@interface BECollectionViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface BECollectionViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UIGestureRecognizerDelegate>
 {
     NSInteger rowNum;
     NSInteger numberOfSections;

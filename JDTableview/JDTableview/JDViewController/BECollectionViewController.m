@@ -131,4 +131,16 @@
     [self saveMovePoint:scrollView.contentOffset.y];
 }
 
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+//    UICollectionViewCell *cell = (UICollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+//    NSArray *indepaths =@[indexPath];
+//    [_dataArray removeObjectAtIndex:indexPath.row];
+//    [self.BECollectionView deleteItemsAtIndexPaths:@[indexPath]];
+    NSLog(@"点击了%ld",(long)indexPath.row);
+}
+
+
+
+
 @end
